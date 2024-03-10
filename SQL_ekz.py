@@ -10,5 +10,6 @@ cursor.execute('''INSERT INTO tabla (planet, number_pl) VALUES
     ("VENUS", 2),
     ("EARTH", 3),
     ("MARS", 4)''')
+
 conn.commit()
 cursor.close()
