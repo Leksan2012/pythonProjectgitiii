@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>страница цветов</title>
+</head>
+<body>
+<h1 align="center">tэксто</h1>
+
+<script>
+
+
+    window.onload = () => {
+        setInterval(
+            () => {
+                let ra1 = Math.random() * 255
+                let ra2 = Math.random() * 255
+                let ra3 = Math.random() * 255
+                document.body.style.backgroundColor = `rgb(${ra1}, ${ra2}, ${ra3})`
+            }, 300)
+    }
+
+
+</script>
+</body>
+</html>
